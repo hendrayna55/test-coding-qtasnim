@@ -9,7 +9,7 @@ class Barang extends Model
 {
     use HasFactory;
     protected $table = 'barangs';
-    protected $guarde = ['id'];
+    protected $guarded = ['id'];
 
     public function kategori(){
         return $this->belongsTo(KategoriBarang::class, 'kategori_id');

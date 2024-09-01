@@ -104,16 +104,9 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="{{url('/data-barang')}}" class="nav-link">
-                            <i class="nav-icon fas fa-boxes"></i>
-                            <p>Data Barang</p>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="{{url('/data-customer')}}" class="nav-link">
-                            <i class="nav-icon fas fa-tags"></i>
-                            <p>Data Kategori</p>
+                        <a href="{{url('/chart-penjualan')}}" class="nav-link">
+                            <i class="nav-icon fas fa-chart-area"></i>
+                            <p>Chart Penjualan</p>
                         </a>
                     </li>
 

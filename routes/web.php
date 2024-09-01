@@ -22,7 +22,12 @@ Route::middleware('auth')->group(function(){
     
     Route::prefix('data-penjualan')->group(function(){
         Route::get('/', [DataPenjualanController::class, 'index']);
+        Route::post('/', [DataPenjualanController::class, 'store']);
+        Route::put('/{id}', [DataPenjualanController::class, 'update']);
+        Route::delete('/{id}', [DataPenjualanController::class, 'destroy']);
     });
+
+    Route::get('/chart-penjualan', [DataPenjualanController::class, 'chart']);
 });
 
 
