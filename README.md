@@ -8,3 +8,6 @@ Cara menggunakan aplikasi
 7. jalankan npm run dev pada terminal kedua
 
 Demo aplikasi bisa dicoba di https://qtasnim.kenjipedia.com
+dengan
+Email : admin@admin.com
+Password : admin#123
